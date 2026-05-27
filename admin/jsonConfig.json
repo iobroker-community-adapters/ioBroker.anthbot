@@ -69,6 +69,18 @@
             "md": 12,
             "lg": 9,
             "xl": 6
+        },
+        "weatherDevice": {
+            "type": "objectId",
+            "label": "Bar data device",
+            "customFilter": "{type: ['device']}",
+            "types": "device",
+            "newLine": true,
+            "xs": 12,
+            "sm": 12,
+            "md": 12,
+            "lg": 9,
+            "xl": 6
         }
     }
 }
