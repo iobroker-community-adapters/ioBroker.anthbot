@@ -1,180 +1,181 @@
 {
-  "common": {
-    "name": "anthbot",
-    "version": "0.0.7",
-    "news": {
-      "0.0.7": {
-        "en": "Add adapter controlled custom area (aka. zone) scheduling (#11)\nBreaking change: alt_mow_head is now mow_head_alts (manual migration/deletion of old state required)",
-        "de": "Fügen Sie Adapter kontrollierte benutzerdefinierte Fläche (aka. zone) Schieduling (#11) hinzu\nBruchänderung: alt mow head ist jetzt mow head alts (manuelle Migration/Auslöschung des alten Zustands erforderlich)",
-        "ru": "Добавить адаптер с контролируемой пользовательской областью (он же зона) расписание (#11)\nПереломное изменение: alt mow head теперь mow head alts (необходима ручная миграция / удаление старого состояния)",
-        "pt": "Adicionar a área personalizada controlada do adaptador (também conhecida como zona) agendamento (#11)\nMudança de quebra: alt mow head está agora a cortar head alts (a migração manual/deleção do estado antigo é necessária)",
-        "nl": "Add adapter controlled custom area (alias zone) scheduling (#11)\nVerandering breken: alt mow head is nu mow head alts (handmatige migratie/deletie van oude staat vereist)",
-        "fr": "Ajouter zone personnalisée contrôlée par adaptateur (aka. zone) programmation (#11)\nBreaking change: alt mow head est maintenant mow head alts (migration manuelle/suppression de l'ancien état requis)",
-        "it": "Aggiungere l'adattatore controllato area personalizzata (aka. zone) programmazione (#11)\nCambiamento di rottura: alt mow head è ora mow head alts (migrazione / cancellazione di stato vecchio richiesto)",
-        "es": "Añada la programación de área personalizada controlada por el adaptador (aka. zone) (#11)\nCambio de ruptura: alt mow head es ahora mow head alts (migración manual / eliminación de estado antiguo requerido)",
-        "pl": "Dodaj sterowany adapterem obszar niestandardowy (aka. zone) harmonogram (# 11)\nZmiana: alt _ mow _ head jest teraz mow _ head _ alts (manualna migracja / usunięcie starego stanu)",
-        "uk": "Додавання адаптера контрольованої користувальницької зони (ака. зона) scheduling (#11)\nЗміна розривів: alt mow head тепер mow head alts (ручна міграція/вилучення старої держави)",
-        "zh-cn": "添加适配器控制自定义区域( aka. zone) 调度( # 11)\n断裂变化: alt mow head 现在为割裂器 head alts(需要人工迁移/删除旧状态)"
-      },
-      "0.0.6": {
-        "en": "Improved map change detection\nAdded custom_area channels, monitoring & control",
-        "de": "Verbesserte Kartenänderungserkennung\nHinzugefügt benutzerdefinierte area Kanäle, Überwachung & Kontrolle",
-        "ru": "Улучшенное обнаружение изменений карты\nДобавлены пользовательские каналы, мониторинг и контроль",
-        "pt": "Detecção de mudança de mapa melhorada\nAdicionados canais custom area, monitoramento e controle",
-        "nl": "Verbeterde detectie van kaartwijzigingen\nAangepaste area kanalen toegevoegd, controle en controle",
-        "fr": "Amélioration de la détection du changement de carte\nAjout de canaux sur mesure, surveillance et contrôle",
-        "it": "Miglioramento del rilevamento delle modifiche della mappa\nAggiunto canali personalizzati area, monitoraggio e controllo",
-        "es": "Mejor detección del cambio de mapa\nAñadido los canales custom area, control",
-        "pl": "Ulepszone wykrywanie zmian map\nDodano niestandardowe kanały _ area, monitoring i sterowanie",
-        "uk": "Покращено виявлення зміни карт\nДодано користувальницьких каналів, контроль та контроль",
-        "zh-cn": "改进地图变更检测\n添加自定义区域频道、 监视和控制"
-      },
-      "0.0.5": {
-        "en": "Added brief usage tips in readme\nAdded active_area, code_list & map states and ridable_mow_start command",
-        "de": "Kurze Nutzungstipps in readme hinzugefügt\nActive area, code list & map Zustände und ridable mow start Befehl hinzugefügt",
-        "ru": "Добавлены краткие советы по использованию в Readme\nДобавлено состояние active area, code list & map и команда ridable mow start",
-        "pt": "Adicionado breves dicas de uso no readme\nAdicionado ative  area, code  list & map states and ridable  mow  start command",
-        "nl": "Korte gebruik tips toegevoegd in readme\nActive area, code list & map states en ridable mow start commando toegevoegd",
-        "fr": "Ajout de brèves conseils d'utilisation dans readme\nAjout de la commande active area, code list & map et ridable mow start",
-        "it": "Aggiunto breve utilizzo suggerimenti in readme\nAggiunto active area, code list & mappa stati e comando ridable mow start",
-        "es": "Consejos de uso breves adicionales en el readme\nAñadido active area, code list & map states and ridable mow start command",
-        "pl": "Dodano krótkie wskazówki użycia w readme\nDodano active _ area, code _ list & map states oraz polecenie ridable _ mow _ start",
-        "uk": "Додайте поради щодо короткого використання в читме\nДодано активний area, code list & map States і ridable mow start команди",
-        "zh-cn": "在readme中添加简短的使用提示\n添加活动区域、 代码列表状态和可清除的  mow  start 命令"
-      },
-      "0.0.4": {
-        "en": "Adapter requires node.js >= 22 now\nAdapter requires admin >= 7.7.22 now\nHandle temporary IoT access tokens (#9)",
-        "de": "Adapter benötigt node.js >= 22 jetzt\nAdapter benötigt admin >= 7.7.22 jetzt\nHandle temporäre IoT-Zugriffstoken (#9)",
-        "ru": "Адаптер требует node.js >= 22 сейчас\nАдаптер требует администратора >= 7.7.22\nОбработка временных токенов доступа к IoT (#9)",
-        "pt": "Adaptador requer nod.js >= 22 agora\nAdaptador requer admin >= 7.7.22 agora\nLidar com tokens de acesso temporário de IoT (# 9)",
-        "nl": "Voor de adapter zijn node.js < 22 nu nodig\nAdapter vereist admin < 7.7.22 nu\nTijdelijke IoT toegang tokens hanteren (#9)",
-        "fr": "Adaptateur nécessite node.js >= 22 maintenant\nAdaptateur nécessite admin >= 7.7.22 maintenant\nPoignez des jetons d'accès IoT temporaires (#9)",
-        "it": "Adattatore richiede node.js >= 22 ora\nAdattatore richiede admin >= 7.7.22 ora\nMantenere i gettoni di accesso IoT temporanei (#9)",
-        "es": "Adaptador requiere node.js ю= 22 ahora\nEl adaptador requiere administrador= 7.7.22 ahora\nHandle temporary IoT access tokens (#9)",
-        "pl": "Adapter wymaga node.js > = 22\nAdapter wymaga admin > = 7.7.22\nObsługa tymczasowych żetonów dostępu IoT (# 9)",
-        "uk": "Адаптер вимагає node.js >= 22 тепер\nАдаптер вимагає адмін >= 7.7.22 тепер\nЗручності для доступу до Інтернету речей (#9)",
-        "zh-cn": "适配器需要节点.js 现在22\n适任者需要管理员 \\ 7.7.22 现在\n处理临时 IOT 访问符 (# 9)"
-      },
-      "0.0.3": {
-        "en": "adapter checker issues",
-        "de": "adapter checker probleme",
-        "ru": "проблемы проверки адаптера",
-        "pt": "problemas com o verificador de adaptadores",
-        "nl": "problemen met de adaptercontrole",
-        "fr": "problèmes de vérification de l'adaptateur",
-        "it": "adattatore checker",
-        "es": "problemas de control de adaptador",
-        "pl": "problemy z sprawdzaniem adaptera",
-        "uk": "питання перевірки адаптера",
-        "zh-cn": "适配器检查器问题"
-      },
-      "0.0.2": {
-        "en": "initial release",
-        "de": "Erstveröffentlichung",
-        "ru": "Начальная версия",
-        "pt": "lançamento inicial",
-        "nl": "Eerste uitgave",
-        "fr": "Première version",
-        "it": "Versione iniziale",
-        "es": "Versión inicial",
-        "pl": "Pierwsze wydanie",
-        "uk": "Початкова версія",
-        "zh-cn": "首次出版"
-      }
+    "common": {
+        "name": "anthbot",
+        "version": "0.0.7",
+        "news": {
+            "0.0.7": {
+                "en": "Add adapter controlled custom area (aka. zone) scheduling (#11)\nBreaking change: alt_mow_head is now mow_head_alts (manual migration/deletion of old state required)",
+                "de": "Fügen Sie Adapter kontrollierte benutzerdefinierte Fläche (aka. zone) Schieduling (#11) hinzu\nBruchänderung: alt mow head ist jetzt mow head alts (manuelle Migration/Auslöschung des alten Zustands erforderlich)",
+                "ru": "Добавить адаптер с контролируемой пользовательской областью (он же зона) расписание (#11)\nПереломное изменение: alt mow head теперь mow head alts (необходима ручная миграция / удаление старого состояния)",
+                "pt": "Adicionar a área personalizada controlada do adaptador (também conhecida como zona) agendamento (#11)\nMudança de quebra: alt mow head está agora a cortar head alts (a migração manual/deleção do estado antigo é necessária)",
+                "nl": "Add adapter controlled custom area (alias zone) scheduling (#11)\nVerandering breken: alt mow head is nu mow head alts (handmatige migratie/deletie van oude staat vereist)",
+                "fr": "Ajouter zone personnalisée contrôlée par adaptateur (aka. zone) programmation (#11)\nBreaking change: alt mow head est maintenant mow head alts (migration manuelle/suppression de l'ancien état requis)",
+                "it": "Aggiungere l'adattatore controllato area personalizzata (aka. zone) programmazione (#11)\nCambiamento di rottura: alt mow head è ora mow head alts (migrazione / cancellazione di stato vecchio richiesto)",
+                "es": "Añada la programación de área personalizada controlada por el adaptador (aka. zone) (#11)\nCambio de ruptura: alt mow head es ahora mow head alts (migración manual / eliminación de estado antiguo requerido)",
+                "pl": "Dodaj sterowany adapterem obszar niestandardowy (aka. zone) harmonogram (# 11)\nZmiana: alt _ mow _ head jest teraz mow _ head _ alts (manualna migracja / usunięcie starego stanu)",
+                "uk": "Додавання адаптера контрольованої користувальницької зони (ака. зона) scheduling (#11)\nЗміна розривів: alt mow head тепер mow head alts (ручна міграція/вилучення старої держави)",
+                "zh-cn": "添加适配器控制自定义区域( aka. zone) 调度( # 11)\n断裂变化: alt mow head 现在为割裂器 head alts(需要人工迁移/删除旧状态)"
+            },
+            "0.0.6": {
+                "en": "Improved map change detection\nAdded custom_area channels, monitoring & control",
+                "de": "Verbesserte Kartenänderungserkennung\nHinzugefügt benutzerdefinierte area Kanäle, Überwachung & Kontrolle",
+                "ru": "Улучшенное обнаружение изменений карты\nДобавлены пользовательские каналы, мониторинг и контроль",
+                "pt": "Detecção de mudança de mapa melhorada\nAdicionados canais custom area, monitoramento e controle",
+                "nl": "Verbeterde detectie van kaartwijzigingen\nAangepaste area kanalen toegevoegd, controle en controle",
+                "fr": "Amélioration de la détection du changement de carte\nAjout de canaux sur mesure, surveillance et contrôle",
+                "it": "Miglioramento del rilevamento delle modifiche della mappa\nAggiunto canali personalizzati area, monitoraggio e controllo",
+                "es": "Mejor detección del cambio de mapa\nAñadido los canales custom area, control",
+                "pl": "Ulepszone wykrywanie zmian map\nDodano niestandardowe kanały _ area, monitoring i sterowanie",
+                "uk": "Покращено виявлення зміни карт\nДодано користувальницьких каналів, контроль та контроль",
+                "zh-cn": "改进地图变更检测\n添加自定义区域频道、 监视和控制"
+            },
+            "0.0.5": {
+                "en": "Added brief usage tips in readme\nAdded active_area, code_list & map states and ridable_mow_start command",
+                "de": "Kurze Nutzungstipps in readme hinzugefügt\nActive area, code list & map Zustände und ridable mow start Befehl hinzugefügt",
+                "ru": "Добавлены краткие советы по использованию в Readme\nДобавлено состояние active area, code list & map и команда ridable mow start",
+                "pt": "Adicionado breves dicas de uso no readme\nAdicionado ative  area, code  list & map states and ridable  mow  start command",
+                "nl": "Korte gebruik tips toegevoegd in readme\nActive area, code list & map states en ridable mow start commando toegevoegd",
+                "fr": "Ajout de brèves conseils d'utilisation dans readme\nAjout de la commande active area, code list & map et ridable mow start",
+                "it": "Aggiunto breve utilizzo suggerimenti in readme\nAggiunto active area, code list & mappa stati e comando ridable mow start",
+                "es": "Consejos de uso breves adicionales en el readme\nAñadido active area, code list & map states and ridable mow start command",
+                "pl": "Dodano krótkie wskazówki użycia w readme\nDodano active _ area, code _ list & map states oraz polecenie ridable _ mow _ start",
+                "uk": "Додайте поради щодо короткого використання в читме\nДодано активний area, code list & map States і ridable mow start команди",
+                "zh-cn": "在readme中添加简短的使用提示\n添加活动区域、 代码列表状态和可清除的  mow  start 命令"
+            },
+            "0.0.4": {
+                "en": "Adapter requires node.js >= 22 now\nAdapter requires admin >= 7.7.22 now\nHandle temporary IoT access tokens (#9)",
+                "de": "Adapter benötigt node.js >= 22 jetzt\nAdapter benötigt admin >= 7.7.22 jetzt\nHandle temporäre IoT-Zugriffstoken (#9)",
+                "ru": "Адаптер требует node.js >= 22 сейчас\nАдаптер требует администратора >= 7.7.22\nОбработка временных токенов доступа к IoT (#9)",
+                "pt": "Adaptador requer nod.js >= 22 agora\nAdaptador requer admin >= 7.7.22 agora\nLidar com tokens de acesso temporário de IoT (# 9)",
+                "nl": "Voor de adapter zijn node.js < 22 nu nodig\nAdapter vereist admin < 7.7.22 nu\nTijdelijke IoT toegang tokens hanteren (#9)",
+                "fr": "Adaptateur nécessite node.js >= 22 maintenant\nAdaptateur nécessite admin >= 7.7.22 maintenant\nPoignez des jetons d'accès IoT temporaires (#9)",
+                "it": "Adattatore richiede node.js >= 22 ora\nAdattatore richiede admin >= 7.7.22 ora\nMantenere i gettoni di accesso IoT temporanei (#9)",
+                "es": "Adaptador requiere node.js ю= 22 ahora\nEl adaptador requiere administrador= 7.7.22 ahora\nHandle temporary IoT access tokens (#9)",
+                "pl": "Adapter wymaga node.js > = 22\nAdapter wymaga admin > = 7.7.22\nObsługa tymczasowych żetonów dostępu IoT (# 9)",
+                "uk": "Адаптер вимагає node.js >= 22 тепер\nАдаптер вимагає адмін >= 7.7.22 тепер\nЗручності для доступу до Інтернету речей (#9)",
+                "zh-cn": "适配器需要节点.js 现在22\n适任者需要管理员 \\ 7.7.22 现在\n处理临时 IOT 访问符 (# 9)"
+            },
+            "0.0.3": {
+                "en": "adapter checker issues",
+                "de": "adapter checker probleme",
+                "ru": "проблемы проверки адаптера",
+                "pt": "problemas com o verificador de adaptadores",
+                "nl": "problemen met de adaptercontrole",
+                "fr": "problèmes de vérification de l'adaptateur",
+                "it": "adattatore checker",
+                "es": "problemas de control de adaptador",
+                "pl": "problemy z sprawdzaniem adaptera",
+                "uk": "питання перевірки адаптера",
+                "zh-cn": "适配器检查器问题"
+            },
+            "0.0.2": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "uk": "Початкова версія",
+                "zh-cn": "首次出版"
+            }
+        },
+        "titleLang": {
+            "en": "Anthbot",
+            "de": "Anthbot",
+            "ru": "Антбот",
+            "pt": "Antobô",
+            "nl": "Antbot",
+            "fr": "Anthbot",
+            "it": "Antbot",
+            "es": "Antbot",
+            "pl": "Anthbot",
+            "uk": "Anthbot",
+            "zh-cn": "蚂蚁机器人"
+        },
+        "desc": {
+            "en": "Connect with Anthbot devices such as their robot mowers",
+            "de": "Verbinden Sie sich mit Anthbot-Geräten wie den Mährobotern",
+            "ru": "Подключайтесь к устройствам Anthbot, например к их роботам-косилкам.",
+            "pt": "Conecte-se com dispositivos Anthbot, como seus robôs cortadores",
+            "nl": "Maak verbinding met Anthbot-apparaten zoals hun robotmaaiers",
+            "fr": "Connectez-vous aux appareils Anthbot tels que leurs robots tondeuses",
+            "it": "Connettiti con i dispositivi Anthbot come i robot rasaerba",
+            "es": "Conéctese con dispositivos Anthbot como sus robots cortacésped",
+            "pl": "Połącz się z urządzeniami Anthbot, takimi jak kosiarki automatyczne",
+            "uk": "Підключайтеся до пристроїв Anthbot, наприклад до їхніх роботів-косарок",
+            "zh-cn": "与 Anthbot 设备连接，例如机器人割草机"
+        },
+        "authors": [
+            "Robin Rainton <robin@rainton.com>",
+            "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
+        ],
+        "keywords": [
+          "robot",
+          "mower",
+          "IoT",
+          "Anthbot",
+          "lawn"
+        ],
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT"
+        },
+        "platform": "Javascript/Node.js",
+        "icon": "anthbot.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.anthbot/master/admin/anthbot.png",
+        "readme": "https://github.com/iobroker-community-adapters/ioBroker.anthbot/blob/master/README.md",
+        "loglevel": "info",
+        "tier": 3,
+        "mode": "daemon",
+        "type": "garden",
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=6.0.11"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=7.7.22"
+            }
+        ]
     },
-    "titleLang": {
-      "en": "Anthbot",
-      "de": "Anthbot",
-      "ru": "Антбот",
-      "pt": "Antobô",
-      "nl": "Antbot",
-      "fr": "Anthbot",
-      "it": "Antbot",
-      "es": "Antbot",
-      "pl": "Anthbot",
-      "uk": "Anthbot",
-      "zh-cn": "蚂蚁机器人"
+    "native": {
+        "username": "",
+        "password": "",
+        "regionCode": 61,
+        "weatherDevice": ""
     },
-    "desc": {
-      "en": "Connect with Anthbot devices such as their robot mowers",
-      "de": "Verbinden Sie sich mit Anthbot-Geräten wie den Mährobotern",
-      "ru": "Подключайтесь к устройствам Anthbot, например к их роботам-косилкам.",
-      "pt": "Conecte-se com dispositivos Anthbot, como seus robôs cortadores",
-      "nl": "Maak verbinding met Anthbot-apparaten zoals hun robotmaaiers",
-      "fr": "Connectez-vous aux appareils Anthbot tels que leurs robots tondeuses",
-      "it": "Connettiti con i dispositivi Anthbot come i robot rasaerba",
-      "es": "Conéctese con dispositivos Anthbot como sus robots cortacésped",
-      "pl": "Połącz się z urządzeniami Anthbot, takimi jak kosiarki automatyczne",
-      "uk": "Підключайтеся до пристроїв Anthbot, наприклад до їхніх роботів-косарок",
-      "zh-cn": "与 Anthbot 设备连接，例如机器人割草机"
-    },
-    "authors": [
-      "Robin Rainton <robin@rainton.com>",
-      "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
+    "encryptedNative": [
+      "password"
     ],
-    "keywords": [
-      "robot",
-      "mower",
-      "IoT",
-      "Anthbot",
-      "lawn"
+    "protectedNative": [
+      "username",
+      "password"
     ],
-    "licenseInformation": {
-      "type": "free",
-      "license": "MIT"
-    },
-    "platform": "Javascript/Node.js",
-    "icon": "anthbot.png",
-    "enabled": true,
-    "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.anthbot/master/admin/anthbot.png",
-    "readme": "https://github.com/iobroker-community-adapters/ioBroker.anthbot/blob/master/README.md",
-    "loglevel": "info",
-    "tier": 3,
-    "mode": "daemon",
-    "type": "garden",
-    "compact": true,
-    "connectionType": "cloud",
-    "dataSource": "poll",
-    "adminUI": {
-      "config": "json"
-    },
-    "dependencies": [
-      {
-        "js-controller": ">=6.0.11"
-      }
-    ],
-    "globalDependencies": [
-      {
-        "admin": ">=7.7.22"
-      }
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": "Device is online",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        }
     ]
-  },
-  "native": {
-    "username": "",
-    "password": "",
-    "regionCode": 61
-  },
-  "encryptedNative": [
-    "password"
-  ],
-  "protectedNative": [
-    "username",
-    "password"
-  ],
-  "objects": [],
-  "instanceObjects": [
-    {
-      "_id": "info.connection",
-      "type": "state",
-      "common": {
-        "role": "indicator.connected",
-        "name": "Device is online",
-        "type": "boolean",
-        "read": true,
-        "write": false,
-        "def": false
-      },
-      "native": {}
-    }
-  ]
 }
