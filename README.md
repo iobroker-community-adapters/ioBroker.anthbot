@@ -111,6 +111,7 @@ Note that when using `area_set` it is not necessary to define all parameters and
 - (mcm1957) BREAKING: object ids are now sanitized. This might result in changed object-ids.
 - (mcm1957) Translations have been corrected.
 - (mcm1957) Loggings has been adapted to avoid logging secrets.
+- (mcm1957) Polling loop changed to use setTimeout to avoid any overlap risk.
 
 ### 0.0.12 (2026-07-03)
 
