@@ -10,7 +10,7 @@ const utils = require('@iobroker/adapter-core');
 
 // Our custom modules
 const { AnthbotCloudApiClient } = require('./lib/anthbotApi');
-const { AnthbotDevice, sanitizeId } = require('./lib/anthbotDevice');
+const { AnthbotDevice } = require('./lib/anthbotDevice');
 
 // TODO: Constants that should maybe be configurable?
 const CONNECTION_RETRY_INTERVAL_MS = 30 * 1000; // Starting retry interval
@@ -107,7 +107,7 @@ class Anthbot extends utils.Adapter {
                 if (!serialNumber) {
                     this.log.error(`No serial number found in command ${id}`);
                 } else {
-                    const device = this.devices.find(checkDevice => sanitizeId(checkDevice.sn) === serialNumber);
+                    const device = this.devices.find(checkDevice => checkDevice.sn === serialNumber);
 
                     if (!device) {
                         this.log.error(`Could not find device for command with serial number: ${serialNumber}`);
@@ -117,7 +117,7 @@ class Anthbot extends utils.Adapter {
 
                             case 'mow_start':
                                 // To start mowing have to put app_state first.
-                                await this.client?.asyncSendServiceCommand(device.sn, 'app_state', 1);
+                                await this.client?.asyncSendServiceCommand(serialNumber, 'app_state', 1);
                             // Purposfully fall through to send the actual command!
 
                             // Generic one-shot commands

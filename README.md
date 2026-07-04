@@ -106,6 +106,11 @@ Note that when using `area_set` it is not necessary to define all parameters and
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+
+### **WORK IN PROGRESS**
+
+- (raintonr) Clean up sanitized (sic) IDs in favour of warning & ignoring
+
 ### 0.1.0 (2026-07-03)
 
 - (mcm1957) BREAKING: object ids are now sanitized. This might result in changed object-ids.
