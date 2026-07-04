@@ -110,6 +110,7 @@ Note that when using `area_set` it is not necessary to define all parameters and
 ### **WORK IN PROGRESS**
 
 - (raintonr) Clean up sanitized (sic) IDs in favour of warning & ignoring
+- (raintonr) Clean up redacted logging of API traffic
 
 ### 0.1.0 (2026-07-03)
 
