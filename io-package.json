@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "anthbot",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "news": {
+      "0.1.1": {
+        "en": "Clean up sanitized (sic) IDs in favour of warning & ignoring\nClean up redacted logging of API traffic\nClean up polling timer & add status.last_poll",
+        "de": "Bereinigung von desinfizierten Ausweisen zugunsten von Warnungen und Ignorieren\nBereinigung der geschwärzten Protokollierung des API-Verkehrs\nBereinige den Abfragetimer und füge status.last_poll hinzu.",
+        "ru": "Вместо предупреждений и игнорирования лучше использовать заниженные (sic) удостоверения личности.\nУстранить некорректные записи в логах API-трафика.\nУдалить таймер опроса и добавить status.last_poll",
+        "pt": "Elimine os documentos de identidade adulterados em vez de advertir e ignorar.\nLimpar os registros anonimizados do tráfego da API\nLimpe o temporizador de sondagem e adicione status.last_poll",
+        "nl": "Verwijder gesaneerde (sic) ID's in plaats van waarschuwingen te geven en te negeren.\nVerwijder de geanonimiseerde logboekregistratie van API-verkeer.\nMaak de pollingtimer schoon en voeg status.last_poll toe.",
+        "fr": "Nettoyer les cartes d'identité aseptisées (sic) au profit d'avertissements et d'ignorance\nNettoyer les journaux expurgés du trafic API\nNettoyage du minuteur d'interrogation et ajout de status.last_poll",
+        "it": "Pulizia degli ID sanificati (sic) a favore dell'avvertimento e dell'ignorare\nPulizia dei log oscurati del traffico API\nPulizia del timer di polling e aggiunta dello stato last_poll",
+        "es": "Limpiar las identificaciones sanitizadas a favor de advertir e ignorar\nLimpiar los registros censurados del tráfico de la API\nLimpiar el temporizador de sondeo y agregar status.last_poll",
+        "pl": "Wyczyść zdezynfekowane identyfikatory na rzecz ostrzeżeń i ignorowania\nWyczyść zredagowane rejestry ruchu API\nWyczyść licznik sondowania i dodaj status.last_poll",
+        "uk": "Очистити санітарні (sic) ідентифікатори на користь попереджень та ігнорування\nОчищення відредагованої реєстрації трафіку API\nОчистити таймер опитування та додати status.last_poll",
+        "zh-cn": "清理已消毒的身份证件，改为警告和忽略。\n清理已编辑的 API 流量日志\n清理轮询计时器并添加状态.last_poll"
+      },
       "0.1.0": {
         "en": "BREAKING: object ids are now sanitized. This might result in changed object-ids.\nTranslations have been corrected.\nLoggings has been adapted to avoid logging secrets.",
         "de": "EILMELDUNG: Objekt-IDs werden jetzt bereinigt. Dies kann zu geänderten Objekt-IDs führen.\nDie Übersetzungen wurden korrigiert.\nDie Protokollierung wurde so angepasst, dass keine Geheimnisse protokolliert werden.",
@@ -80,19 +93,6 @@
         "pl": "Ulepszenia harmonogramu: stwierdza folder & obsłużyć zaległe obszary (strefy)\nZmiana: dodany folder statusu (ręczne usunięcie starych stanów)",
         "uk": "Поліпшення розкладу: папка та ручка перезамінних зон (зони)\nЗміна стану: додано папку стану (обов’язкове видалення старих держав)",
         "zh-cn": "时间表改进: 设置文件夹并处理逾期区域( 区)\n中断更改: 添加状态文件夹( 需要手动删除旧状态)"
-      },
-      "0.0.7": {
-        "en": "Add adapter controlled custom area (aka. zone) scheduling (#11)\nBreaking change: alt_mow_head is now mow_head_alts (manual migration/deletion of old state required)",
-        "de": "Fügen Sie Adapter kontrollierte benutzerdefinierte Fläche (aka. zone) Schieduling (#11) hinzu\nBruchänderung: alt mow head ist jetzt mow head alts (manuelle Migration/Auslöschung des alten Zustands erforderlich)",
-        "ru": "Добавить адаптер с контролируемой пользовательской областью (он же зона) расписание (#11)\nПереломное изменение: alt mow head теперь mow head alts (необходима ручная миграция / удаление старого состояния)",
-        "pt": "Adicionar a área personalizada controlada do adaptador (também conhecida como zona) agendamento (#11)\nMudança de quebra: alt mow head está agora a cortar head alts (a migração manual/deleção do estado antigo é necessária)",
-        "nl": "Add adapter controlled custom area (alias zone) scheduling (#11)\nVerandering breken: alt mow head is nu mow head alts (handmatige migratie/deletie van oude staat vereist)",
-        "fr": "Ajouter zone personnalisée contrôlée par adaptateur (aka. zone) programmation (#11)\nBreaking change: alt mow head est maintenant mow head alts (migration manuelle/suppression de l'ancien état requis)",
-        "it": "Aggiungere l'adattatore controllato area personalizzata (aka. zone) programmazione (#11)\nCambiamento di rottura: alt mow head è ora mow head alts (migrazione / cancellazione di stato vecchio richiesto)",
-        "es": "Añada la programación de área personalizada controlada por el adaptador (aka. zone) (#11)\nCambio de ruptura: alt mow head es ahora mow head alts (migración manual / eliminación de estado antiguo requerido)",
-        "pl": "Dodaj sterowany adapterem obszar niestandardowy (aka. zone) harmonogram (# 11)\nZmiana: alt _ mow _ head jest teraz mow _ head _ alts (manualna migracja / usunięcie starego stanu)",
-        "uk": "Додавання адаптера контрольованої користувальницької зони (ака. зона) scheduling (#11)\nЗміна розривів: alt mow head тепер mow head alts (ручна міграція/вилучення старої держави)",
-        "zh-cn": "添加适配器控制自定义区域( aka. zone) 调度( # 11)\n断裂变化: alt mow head 现在为割裂器 head alts(需要人工迁移/删除旧状态)"
       }
     },
     "titleLang": {

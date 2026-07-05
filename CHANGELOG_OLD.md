@@ -1,9 +1,12 @@
 # Older changes
+## 0.0.9 (2026-05-29)
+
+- (raintonr) Fix mow_head_alts wrapping (#20)
+
 ## 0.0.8 (2026-05-28)
 
 - (raintonr) Schedule improvements: states folder & handle overdue areas (zones)
 - (raintonr) Breaking change: added status folder (manual deletion of old states required)
-
 
 ## 0.0.7 (2026-05-25)
 

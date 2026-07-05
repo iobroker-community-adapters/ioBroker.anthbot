@@ -106,8 +106,7 @@ Note that when using `area_set` it is not necessary to define all parameters and
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-
-### **WORK IN PROGRESS**
+### 0.1.1 (2026-07-05)
 
 - (raintonr) Clean up sanitized (sic) IDs in favour of warning & ignoring
 - (raintonr) Clean up redacted logging of API traffic
@@ -136,10 +135,6 @@ Note that when using `area_set` it is not necessary to define all parameters and
 - (raintonr) Schedule improvements: do not start if in (or will not finish before) active do not disturb period
 - (raintonr) Handle multiple devices
 - (raintonr) Handle Genie series (custom areas not supported yet)
-
-### 0.0.9 (2026-05-29)
-
-- (raintonr) Fix mow_head_alts wrapping (#20)
 
 [Older changelogs can be found there](CHANGELOG_OLD.md)
 
