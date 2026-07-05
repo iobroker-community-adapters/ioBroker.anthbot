@@ -111,6 +111,7 @@ Note that when using `area_set` it is not necessary to define all parameters and
 
 - (raintonr) Clean up sanitized (sic) IDs in favour of warning & ignoring
 - (raintonr) Clean up redacted logging of API traffic
+- (raintonr) Clean up polling timer & add status.last_poll
 
 ### 0.1.0 (2026-07-03)
 
