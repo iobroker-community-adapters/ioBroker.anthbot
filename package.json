@@ -4,6 +4,7 @@
   "description": "Connect with Anthbot devices such as their robot mowers",
   "author": "Robin Rainton <robin@rainton.com>",
   "contributors": [
+    "raintonr <robin@rainton.com>",
     "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
   ],
   "homepage": "https://github.com/iobroker-community-adapters/ioBroker.anthbot",
