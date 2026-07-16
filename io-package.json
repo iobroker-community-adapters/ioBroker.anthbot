@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "anthbot",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "news": {
+      "0.1.2": {
+        "en": "Added device WiFi & 4G status",
+        "de": "Gerätestatus für WLAN und 4G hinzugefügt",
+        "ru": "Добавлен статус Wi-Fi и 4G устройства.",
+        "pt": "Adicionado status de Wi-Fi e 4G do dispositivo",
+        "nl": "Wifi- en 4G-status van het apparaat toegevoegd",
+        "fr": "Ajout de l'état WiFi et 4G de l'appareil",
+        "it": "Stato WiFi e 4G del dispositivo aggiunto",
+        "es": "Se agregó el estado de WiFi y 4G del dispositivo.",
+        "pl": "Dodano status WiFi i 4G urządzenia",
+        "uk": "Додано статус Wi-Fi та 4G пристрою",
+        "zh-cn": "已添加设备 WiFi 和 4G 状态"
+      },
       "0.1.1": {
         "en": "Clean up sanitized (sic) IDs in favour of warning & ignoring\nClean up redacted logging of API traffic\nClean up polling timer & add status.last_poll",
         "de": "Bereinigung von desinfizierten Ausweisen zugunsten von Warnungen und Ignorieren\nBereinigung der geschwärzten Protokollierung des API-Verkehrs\nBereinige den Abfragetimer und füge status.last_poll hinzu.",
@@ -80,19 +93,6 @@
         "pl": "Fix mow _ head _ alts pakowanie (# 20)",
         "uk": "Виправлення mow head alts обгортання (#20)",
         "zh-cn": "修补剪切除器  头部  结束( # 20)"
-      },
-      "0.0.8": {
-        "en": "Schedule improvements: states folder & handle overdue areas (zones)\nBreaking change: added status folder (manual deletion of old states required)",
-        "de": "Zeitplan Verbesserungen: Zustände Ordner & Griff überfällige Bereiche (Zonen)\nBreaking change: hinzugefügter Statusordner (manuelle Löschung von alten Zuständen erforderlich)",
-        "ru": "Улучшение графика: папка состояний и обработка просроченных областей (зон)\nВнесение изменений: добавленная папка состояния (необходимо ручное удаление старых состояний)",
-        "pt": "Melhorias de agendamento: pastas de estados e áreas atrasadas (zonas)\nMudança de quebra: pasta de estado adicionada (exclusão manual dos estados antigos necessários)",
-        "nl": "Plan verbeteringen: staat map & omgaan met verouderde gebieden (zones)\nBreaking change: status map toegevoegd (handmatige verwijdering van oude staten vereist)",
-        "fr": "Améliorations du calendrier : indique le dossier et traite les zones en retard (zones)\nBreaking change: ajout du dossier d'état (effacement manuel des anciens états requis)",
-        "it": "Miglioramento dell'orario: cartella stati & gestire aree in ritardo (zone)\nCambiamento di rottura: cartella di stato aggiunto (eliminazione manuale di stati vecchi richiesti)",
-        "es": "Mejoras programadas: carpeta de estados \" manejar áreas atrasadas (zonas)\nCambio de ruptura: carpeta de estado añadido (supresión manual de estados antiguos requeridos)",
-        "pl": "Ulepszenia harmonogramu: stwierdza folder & obsłużyć zaległe obszary (strefy)\nZmiana: dodany folder statusu (ręczne usunięcie starych stanów)",
-        "uk": "Поліпшення розкладу: папка та ручка перезамінних зон (зони)\nЗміна стану: додано папку стану (обов’язкове видалення старих держав)",
-        "zh-cn": "时间表改进: 设置文件夹并处理逾期区域( 区)\n中断更改: 添加状态文件夹( 需要手动删除旧状态)"
       }
     },
     "titleLang": {
