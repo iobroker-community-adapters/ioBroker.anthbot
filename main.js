@@ -536,6 +536,8 @@ class Anthbot extends utils.Adapter {
         for (const device of this.devices) {
             device.stop();
         }
+        // Clear our device list as everything is now stopped
+        this.devices = [];
     }
 
     /**
