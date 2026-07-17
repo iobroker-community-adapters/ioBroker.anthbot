@@ -106,6 +106,11 @@ Note that when using `area_set` it is not necessary to define all parameters and
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+
+### **WORK IN PROGRESS**
+
+- (raintonr) Few general code clean-ups
+
 ### 0.1.2 (2026-07-16)
 
 - (raintonr) Added device WiFi & 4G status
