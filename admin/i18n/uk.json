@@ -36,7 +36,13 @@
     "United Kingdom": "Велика Британія",
     "United States / Canada": "США / Канада",
     "anthbot adapter settings": "Налаштування адаптера для anthbot",
+    "cloudSyncDelay": "Затримка синхронізації з хмарою",
+    "cloudSyncDelayHelp": "Затримка між поданням команди та наступним опитуванням (мілісекунди)",
     "password": "Пароль",
+    "pollingInterval": "Інтервал опитування в секундах",
+    "pollingIntervalHelp": "(секунди)",
     "region": "Регіон",
+    "scheduleDawnOffset": "Зміщення графіка світанку",
+    "scheduleDawnOffsetHelp": "Час після світанку для планування косіння, мінус означає початок до світанку (хвилини)",
     "username": "Ім'я користувача"
 }

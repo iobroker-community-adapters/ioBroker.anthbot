@@ -1,193 +1,196 @@
 {
-  "common": {
-    "name": "anthbot",
-    "version": "0.1.2",
-    "news": {
-      "0.1.2": {
-        "en": "Added device WiFi & 4G status",
-        "de": "Gerätestatus für WLAN und 4G hinzugefügt",
-        "ru": "Добавлен статус Wi-Fi и 4G устройства.",
-        "pt": "Adicionado status de Wi-Fi e 4G do dispositivo",
-        "nl": "Wifi- en 4G-status van het apparaat toegevoegd",
-        "fr": "Ajout de l'état WiFi et 4G de l'appareil",
-        "it": "Stato WiFi e 4G del dispositivo aggiunto",
-        "es": "Se agregó el estado de WiFi y 4G del dispositivo.",
-        "pl": "Dodano status WiFi i 4G urządzenia",
-        "uk": "Додано статус Wi-Fi та 4G пристрою",
-        "zh-cn": "已添加设备 WiFi 和 4G 状态"
-      },
-      "0.1.1": {
-        "en": "Clean up sanitized (sic) IDs in favour of warning & ignoring\nClean up redacted logging of API traffic\nClean up polling timer & add status.last_poll",
-        "de": "Bereinigung von desinfizierten Ausweisen zugunsten von Warnungen und Ignorieren\nBereinigung der geschwärzten Protokollierung des API-Verkehrs\nBereinige den Abfragetimer und füge status.last_poll hinzu.",
-        "ru": "Вместо предупреждений и игнорирования лучше использовать заниженные (sic) удостоверения личности.\nУстранить некорректные записи в логах API-трафика.\nУдалить таймер опроса и добавить status.last_poll",
-        "pt": "Elimine os documentos de identidade adulterados em vez de advertir e ignorar.\nLimpar os registros anonimizados do tráfego da API\nLimpe o temporizador de sondagem e adicione status.last_poll",
-        "nl": "Verwijder gesaneerde (sic) ID's in plaats van waarschuwingen te geven en te negeren.\nVerwijder de geanonimiseerde logboekregistratie van API-verkeer.\nMaak de pollingtimer schoon en voeg status.last_poll toe.",
-        "fr": "Nettoyer les cartes d'identité aseptisées (sic) au profit d'avertissements et d'ignorance\nNettoyer les journaux expurgés du trafic API\nNettoyage du minuteur d'interrogation et ajout de status.last_poll",
-        "it": "Pulizia degli ID sanificati (sic) a favore dell'avvertimento e dell'ignorare\nPulizia dei log oscurati del traffico API\nPulizia del timer di polling e aggiunta dello stato last_poll",
-        "es": "Limpiar las identificaciones sanitizadas a favor de advertir e ignorar\nLimpiar los registros censurados del tráfico de la API\nLimpiar el temporizador de sondeo y agregar status.last_poll",
-        "pl": "Wyczyść zdezynfekowane identyfikatory na rzecz ostrzeżeń i ignorowania\nWyczyść zredagowane rejestry ruchu API\nWyczyść licznik sondowania i dodaj status.last_poll",
-        "uk": "Очистити санітарні (sic) ідентифікатори на користь попереджень та ігнорування\nОчищення відредагованої реєстрації трафіку API\nОчистити таймер опитування та додати status.last_poll",
-        "zh-cn": "清理已消毒的身份证件，改为警告和忽略。\n清理已编辑的 API 流量日志\n清理轮询计时器并添加状态.last_poll"
-      },
-      "0.1.0": {
-        "en": "BREAKING: object ids are now sanitized. This might result in changed object-ids.\nTranslations have been corrected.\nLoggings has been adapted to avoid logging secrets.",
-        "de": "EILMELDUNG: Objekt-IDs werden jetzt bereinigt. Dies kann zu geänderten Objekt-IDs führen.\nDie Übersetzungen wurden korrigiert.\nDie Protokollierung wurde so angepasst, dass keine Geheimnisse protokolliert werden.",
-        "ru": "ВНИМАНИЕ: идентификаторы объектов теперь проходят проверку на наличие ошибок. Это может привести к изменению идентификаторов объектов.\nПереводы исправлены.\nСистема Loggings была адаптирована таким образом, чтобы избежать записи секретной информации.",
-        "pt": "ATENÇÃO: os IDs dos objetos agora são higienizados. Isso pode resultar em alterações nos IDs dos objetos.\nAs traduções foram corrigidas.\nO sistema de registro de logs foi adaptado para evitar o registro de informações confidenciais.",
-        "nl": "BELANGRIJKE MEDEDELING: object-ID's worden nu gevalideerd. Dit kan leiden tot gewijzigde object-ID's.\nDe vertalingen zijn gecorrigeerd.\nDe logboekregistratie is aangepast om te voorkomen dat geheime gegevens worden vastgelegd.",
-        "fr": "ALERTE : les identifiants d'objets sont désormais nettoyés. Cela peut entraîner une modification des identifiants d'objets.\nLes traductions ont été corrigées.\nLe système de journalisation a été adapté afin d'éviter la journalisation des informations confidentielles.",
-        "it": "AVVISO IMPORTANTE: gli ID degli oggetti sono ora sanificati. Ciò potrebbe comportare la modifica degli ID degli oggetti.\nLe traduzioni sono state corrette.\nIl sistema di registrazione è stato adattato per evitare la registrazione di informazioni riservate.",
-        "es": "ÚLTIMA HORA: Los identificadores de objeto ahora se desinfectan. Esto podría provocar cambios en los identificadores de objeto.\nLas traducciones han sido corregidas.\nEl sistema de registro se ha adaptado para evitar el registro de información confidencial.",
-        "pl": "PILNE: identyfikatory obiektów są teraz czyszczone. Może to spowodować zmianę identyfikatorów obiektów.\nTłumaczenia zostały poprawione.\nRejestrowanie zostało dostosowane w celu uniknięcia ukrywania sekretów rejestrowania.",
-        "uk": "ВАЖЛИВО: ідентифікатори об'єктів тепер очищені. Це може призвести до зміни ідентифікаторів об'єктів.\nПереклади виправлено.\nВедення журналів було адаптовано, щоб уникнути секретів журналювання.",
-        "zh-cn": "重要通知：对象 ID 现已进行清理。这可能会导致对象 ID 发生变化。\n译文已修正。\n日志记录机制已进行调整，以避免记录秘密信息。"
-      },
-      "0.0.12": {
-        "en": "Added mow_head & cutter_height custom area (zone) shortcuts\nFix bug creating multiple polling timers\nHandle missing task finished code when custom area mowing (#35)",
-        "de": "Benutzerdefinierte Bereiche (Zonen) für Mähkopf und Schneidwerkshöhe hinzugefügt\nFehler behoben, der das Erstellen mehrerer Abfragetimer verursachte\nFehlenden Code für die Aufgabenabwicklung beim Mähen benutzerdefinierter Bereiche behandeln (#35)",
-        "ru": "Добавлены ярлыки для пользовательских зон (областей) скашивания и высоты режущего инструмента.\nИсправлена ошибка, приводящая к созданию нескольких таймеров опроса.\nОбработка кода, в котором отсутствует сообщение о завершении задачи при покосе пользовательской области (#35)",
-        "pt": "Adicionados atalhos para áreas personalizadas (zonas) de corte de cabeçote e altura de corte.\nCorrigido o bug que criava vários temporizadores de sondagem.\nLidar com código de tarefa concluída ausente ao cortar a grama em área personalizada (#35)",
-        "nl": "Sneltoetsen voor maaihoogte en maaihoogte toegevoegd.\nBug verholpen die meerdere pollingtimers aanmaakte.\nVerwerk ontbrekende taakvoltooiingscode bij het maaien van een aangepast gebied (#35)",
-        "fr": "Ajout de raccourcis pour les zones personnalisées (zones) de coupe et de réglage de la hauteur de coupe\nCorrection d'un bug provoquant la création de plusieurs minuteurs d'interrogation\nGérer le code de fin de tâche manquant lors de la tonte de zones personnalisées (#35)",
-        "it": "Aggiunte scorciatoie per le aree personalizzate (zone) di mow_head e cutter_height.\nRisolto un bug che causava la creazione di più timer di polling.\nGestire il codice di completamento dell'attività mancante durante la falciatura di un'area personalizzata (#35)",
-        "es": "Se agregaron accesos directos a las áreas personalizadas (zonas) mow_head y cutter_height.\nSe corrige un error que creaba múltiples temporizadores de sondeo.\nGestionar el código de finalización de tarea faltante al cortar el césped de un área personalizada (#35)",
-        "pl": "Dodano skróty do obszarów niestandardowych (stref) mow_head i cutter_height\nNaprawiono błąd tworzenia wielu liczników sondowania\nObsługa brakującego kodu ukończonego zadania podczas koszenia niestandardowego obszaru (#35)",
-        "uk": "Додано комбінації клавіш для користувацьких областей (зон) mow_head та cutter_height\nВиправлено помилку створення кількох таймерів опитування\nОбробка відсутнього коду завершення завдання під час скошування користувацької області (#35)",
-        "zh-cn": "添加了 mow_head 和 cutter_height 自定义区域（区域）快捷方式\n修复创建多个轮询计时器的错误\n处理自定义区域割草时缺失的任务完成代码（#35）"
-      },
-      "0.0.11": {
-        "en": "Handle custom areas & do not disturb for Genie series\nBetter error handling",
-        "de": "Behandeln Sie benutzerdefinierte Bereiche und stören Sie nicht für Genie-Serien\nBessere Fehlerbehandlung",
-        "ru": "Обрабатывайте пользовательские области и не беспокойте серию Genie\nЛучшее управление ошибками",
-        "pt": "Lidar com áreas personalizadas & não perturbar para a série Genie\nMelhor manipulação de erros",
-        "nl": "Aangepaste gebieden bewerken & niet storen voor Genie-series\nBetere foutafhandeling",
-        "fr": "Poignez des zones personnalisées & ne dérangez pas pour la série Genie\nMeilleure gestion des erreurs",
-        "it": "Manigliare aree personalizzate & non disturbare per la serie Genie\nMigliore gestione degli errori",
-        "es": "Manija las áreas personalizadas & no molestar para la serie Genie\nMejor manejo de errores",
-        "pl": "Obsługa niestandardowych obszarów i nie przeszkadzać dla serii Genie\nLepsza obsługa błędów",
-        "uk": "Ручка користувальницьких зон і не турбувати на серії Genie\nКраще використання помилок",
-        "zh-cn": "处理自定义区域, 不打扰 Genie 系列\n更好的错误处理"
-      },
-      "0.0.10": {
-        "en": "Added do not disturb, vision, rain & volume commands\nSchedule improvements: do not start if in (or will not finish before) active do not disturb period\nHandle multiple devices\nHandle Genie series (custom map areas not supported yet)",
-        "de": "Hinzugefügt nicht stören, Vision, Regen & Volumen Befehle\nZeitplanverbesserungen: Starten Sie nicht, wenn Sie aktiv sind (oder vorher nicht fertig sind)\nHandhabung mehrerer Geräte\nHandle Genie-Serie (benutzerdefinierte Kartenbereiche werden noch nicht unterstützt)",
-        "ru": "Добавлено не беспокоить, видение, дождь и объем команды\nРасписание улучшений: не начинайте, если в (или не закончите раньше) активный не нарушает период\nУправление несколькими устройствами\nСерия Handle Genie (обычные карты пока не поддерживаются)",
-        "pt": "Adicionado não perturbar, visão, chuva & comandos de volume\nMelhorias de agendamento: não iniciar se estiver ativo (ou não terminar antes) não perturbar o período\nLidar com vários dispositivos\nLidar com a série Genie (áreas de mapas personalizados ainda não suportadas)",
-        "nl": "Toegevoegd niet storen, zicht, regen & volume commando's\nPlan verbeteringen: niet starten als in (of zal niet eindigen vóór) actief niet storen periode\nMeerdere apparaten hanteren\nHandle Genie serie (custom map gebieden nog niet ondersteund)",
-        "fr": "Ajouté ne dérangez pas, la vision, la pluie et le volume commandes\nAméliorations du calendrier : ne pas commencer si en (ou ne finira pas avant) actif ne dérange pas la période\nPoignez plusieurs appareils\nPoignez la série Génie (zones de carte personnalisées non encore prises en charge)",
-        "it": "Aggiunto non disturbare, visione, pioggia & volumi comandi\nMiglioramenti di programma: non iniziare se in (o non finirà prima) attivo non disturbare il periodo\nManeggiare più dispositivi\nManiglia serie Genie (zone mappa personalizzata non ancora supportate)",
-        "es": "Añadido no molestar, visión, lluvia > comandos de volumen\nMejoras programadas: no comience si en (o no terminará antes) activo no perturba el período\nManeja múltiples dispositivos\nHandle Genie series (las áreas de mapa de clientes aún no soportadas)",
-        "pl": "Dodano nie przeszkadzać, widzenie, deszcz i głośność komend\nUlepszenia harmonogramu: nie należy zaczynać, jeśli w (lub nie zakończy się wcześniej) aktywny nie zakłócać okresu\nObsługa wielu urządzeń\nObsługa serii Genie (nieobsługiwane jeszcze obszary map)",
-        "uk": "Додано не турбувати, бачення, дощ & об'єм команди\nПоліпшення розкладу: не запускати, якщо в (або не закінчиться до) активного не турбувати період\nРучка декількох пристроїв\nHandle Genie серії (карти не підтримуються ще)",
-        "zh-cn": "添加后不扰动、 视觉、 雨量和音量命令\n时间表改进: 如果在( 或不会在之前完成) 活动时不扰动周期, 请不要开始\n处理多个设备\n处理 Genie 系列( 尚未支持海关地图区域)"
-      },
-      "0.0.9": {
-        "en": "Fix mow_head_alts wrapping (#20)",
-        "de": "Fix mow head alts Verpackung (#20)",
-        "ru": "Fix mow head alts wrapping (#20)",
-        "pt": "Corrigir o empacotamento de cabeça  alts (# 20)",
-        "nl": "Mow head alts-inpakken repareren (#20)",
-        "fr": "Correction de l'emballage de mow head alts (#20)",
-        "it": "Risolvere la fascia mow head alts (#20)",
-        "es": "Fijar envolver mow head alts (#20)",
-        "pl": "Fix mow _ head _ alts pakowanie (# 20)",
-        "uk": "Виправлення mow head alts обгортання (#20)",
-        "zh-cn": "修补剪切除器  头部  结束( # 20)"
-      }
+    "common": {
+        "name": "anthbot",
+        "version": "0.1.2",
+        "news": {
+            "0.1.2": {
+                "en": "Added device WiFi & 4G status",
+                "de": "Gerätestatus für WLAN und 4G hinzugefügt",
+                "ru": "Добавлен статус Wi-Fi и 4G устройства.",
+                "pt": "Adicionado status de Wi-Fi e 4G do dispositivo",
+                "nl": "Wifi- en 4G-status van het apparaat toegevoegd",
+                "fr": "Ajout de l'état WiFi et 4G de l'appareil",
+                "it": "Stato WiFi e 4G del dispositivo aggiunto",
+                "es": "Se agregó el estado de WiFi y 4G del dispositivo.",
+                "pl": "Dodano status WiFi i 4G urządzenia",
+                "uk": "Додано статус Wi-Fi та 4G пристрою",
+                "zh-cn": "已添加设备 WiFi 和 4G 状态"
+            },
+            "0.1.1": {
+                "en": "Clean up sanitized (sic) IDs in favour of warning & ignoring\nClean up redacted logging of API traffic\nClean up polling timer & add status.last_poll",
+                "de": "Bereinigung von desinfizierten Ausweisen zugunsten von Warnungen und Ignorieren\nBereinigung der geschwärzten Protokollierung des API-Verkehrs\nBereinige den Abfragetimer und füge status.last_poll hinzu.",
+                "ru": "Вместо предупреждений и игнорирования лучше использовать заниженные (sic) удостоверения личности.\nУстранить некорректные записи в логах API-трафика.\nУдалить таймер опроса и добавить status.last_poll",
+                "pt": "Elimine os documentos de identidade adulterados em vez de advertir e ignorar.\nLimpar os registros anonimizados do tráfego da API\nLimpe o temporizador de sondagem e adicione status.last_poll",
+                "nl": "Verwijder gesaneerde (sic) ID's in plaats van waarschuwingen te geven en te negeren.\nVerwijder de geanonimiseerde logboekregistratie van API-verkeer.\nMaak de pollingtimer schoon en voeg status.last_poll toe.",
+                "fr": "Nettoyer les cartes d'identité aseptisées (sic) au profit d'avertissements et d'ignorance\nNettoyer les journaux expurgés du trafic API\nNettoyage du minuteur d'interrogation et ajout de status.last_poll",
+                "it": "Pulizia degli ID sanificati (sic) a favore dell'avvertimento e dell'ignorare\nPulizia dei log oscurati del traffico API\nPulizia del timer di polling e aggiunta dello stato last_poll",
+                "es": "Limpiar las identificaciones sanitizadas a favor de advertir e ignorar\nLimpiar los registros censurados del tráfico de la API\nLimpiar el temporizador de sondeo y agregar status.last_poll",
+                "pl": "Wyczyść zdezynfekowane identyfikatory na rzecz ostrzeżeń i ignorowania\nWyczyść zredagowane rejestry ruchu API\nWyczyść licznik sondowania i dodaj status.last_poll",
+                "uk": "Очистити санітарні (sic) ідентифікатори на користь попереджень та ігнорування\nОчищення відредагованої реєстрації трафіку API\nОчистити таймер опитування та додати status.last_poll",
+                "zh-cn": "清理已消毒的身份证件，改为警告和忽略。\n清理已编辑的 API 流量日志\n清理轮询计时器并添加状态.last_poll"
+            },
+            "0.1.0": {
+                "en": "BREAKING: object ids are now sanitized. This might result in changed object-ids.\nTranslations have been corrected.\nLoggings has been adapted to avoid logging secrets.",
+                "de": "EILMELDUNG: Objekt-IDs werden jetzt bereinigt. Dies kann zu geänderten Objekt-IDs führen.\nDie Übersetzungen wurden korrigiert.\nDie Protokollierung wurde so angepasst, dass keine Geheimnisse protokolliert werden.",
+                "ru": "ВНИМАНИЕ: идентификаторы объектов теперь проходят проверку на наличие ошибок. Это может привести к изменению идентификаторов объектов.\nПереводы исправлены.\nСистема Loggings была адаптирована таким образом, чтобы избежать записи секретной информации.",
+                "pt": "ATENÇÃO: os IDs dos objetos agora são higienizados. Isso pode resultar em alterações nos IDs dos objetos.\nAs traduções foram corrigidas.\nO sistema de registro de logs foi adaptado para evitar o registro de informações confidenciais.",
+                "nl": "BELANGRIJKE MEDEDELING: object-ID's worden nu gevalideerd. Dit kan leiden tot gewijzigde object-ID's.\nDe vertalingen zijn gecorrigeerd.\nDe logboekregistratie is aangepast om te voorkomen dat geheime gegevens worden vastgelegd.",
+                "fr": "ALERTE : les identifiants d'objets sont désormais nettoyés. Cela peut entraîner une modification des identifiants d'objets.\nLes traductions ont été corrigées.\nLe système de journalisation a été adapté afin d'éviter la journalisation des informations confidentielles.",
+                "it": "AVVISO IMPORTANTE: gli ID degli oggetti sono ora sanificati. Ciò potrebbe comportare la modifica degli ID degli oggetti.\nLe traduzioni sono state corrette.\nIl sistema di registrazione è stato adattato per evitare la registrazione di informazioni riservate.",
+                "es": "ÚLTIMA HORA: Los identificadores de objeto ahora se desinfectan. Esto podría provocar cambios en los identificadores de objeto.\nLas traducciones han sido corregidas.\nEl sistema de registro se ha adaptado para evitar el registro de información confidencial.",
+                "pl": "PILNE: identyfikatory obiektów są teraz czyszczone. Może to spowodować zmianę identyfikatorów obiektów.\nTłumaczenia zostały poprawione.\nRejestrowanie zostało dostosowane w celu uniknięcia ukrywania sekretów rejestrowania.",
+                "uk": "ВАЖЛИВО: ідентифікатори об'єктів тепер очищені. Це може призвести до зміни ідентифікаторів об'єктів.\nПереклади виправлено.\nВедення журналів було адаптовано, щоб уникнути секретів журналювання.",
+                "zh-cn": "重要通知：对象 ID 现已进行清理。这可能会导致对象 ID 发生变化。\n译文已修正。\n日志记录机制已进行调整，以避免记录秘密信息。"
+            },
+            "0.0.12": {
+                "en": "Added mow_head & cutter_height custom area (zone) shortcuts\nFix bug creating multiple polling timers\nHandle missing task finished code when custom area mowing (#35)",
+                "de": "Benutzerdefinierte Bereiche (Zonen) für Mähkopf und Schneidwerkshöhe hinzugefügt\nFehler behoben, der das Erstellen mehrerer Abfragetimer verursachte\nFehlenden Code für die Aufgabenabwicklung beim Mähen benutzerdefinierter Bereiche behandeln (#35)",
+                "ru": "Добавлены ярлыки для пользовательских зон (областей) скашивания и высоты режущего инструмента.\nИсправлена ошибка, приводящая к созданию нескольких таймеров опроса.\nОбработка кода, в котором отсутствует сообщение о завершении задачи при покосе пользовательской области (#35)",
+                "pt": "Adicionados atalhos para áreas personalizadas (zonas) de corte de cabeçote e altura de corte.\nCorrigido o bug que criava vários temporizadores de sondagem.\nLidar com código de tarefa concluída ausente ao cortar a grama em área personalizada (#35)",
+                "nl": "Sneltoetsen voor maaihoogte en maaihoogte toegevoegd.\nBug verholpen die meerdere pollingtimers aanmaakte.\nVerwerk ontbrekende taakvoltooiingscode bij het maaien van een aangepast gebied (#35)",
+                "fr": "Ajout de raccourcis pour les zones personnalisées (zones) de coupe et de réglage de la hauteur de coupe\nCorrection d'un bug provoquant la création de plusieurs minuteurs d'interrogation\nGérer le code de fin de tâche manquant lors de la tonte de zones personnalisées (#35)",
+                "it": "Aggiunte scorciatoie per le aree personalizzate (zone) di mow_head e cutter_height.\nRisolto un bug che causava la creazione di più timer di polling.\nGestire il codice di completamento dell'attività mancante durante la falciatura di un'area personalizzata (#35)",
+                "es": "Se agregaron accesos directos a las áreas personalizadas (zonas) mow_head y cutter_height.\nSe corrige un error que creaba múltiples temporizadores de sondeo.\nGestionar el código de finalización de tarea faltante al cortar el césped de un área personalizada (#35)",
+                "pl": "Dodano skróty do obszarów niestandardowych (stref) mow_head i cutter_height\nNaprawiono błąd tworzenia wielu liczników sondowania\nObsługa brakującego kodu ukończonego zadania podczas koszenia niestandardowego obszaru (#35)",
+                "uk": "Додано комбінації клавіш для користувацьких областей (зон) mow_head та cutter_height\nВиправлено помилку створення кількох таймерів опитування\nОбробка відсутнього коду завершення завдання під час скошування користувацької області (#35)",
+                "zh-cn": "添加了 mow_head 和 cutter_height 自定义区域（区域）快捷方式\n修复创建多个轮询计时器的错误\n处理自定义区域割草时缺失的任务完成代码（#35）"
+            },
+            "0.0.11": {
+                "en": "Handle custom areas & do not disturb for Genie series\nBetter error handling",
+                "de": "Behandeln Sie benutzerdefinierte Bereiche und stören Sie nicht für Genie-Serien\nBessere Fehlerbehandlung",
+                "ru": "Обрабатывайте пользовательские области и не беспокойте серию Genie\nЛучшее управление ошибками",
+                "pt": "Lidar com áreas personalizadas & não perturbar para a série Genie\nMelhor manipulação de erros",
+                "nl": "Aangepaste gebieden bewerken & niet storen voor Genie-series\nBetere foutafhandeling",
+                "fr": "Poignez des zones personnalisées & ne dérangez pas pour la série Genie\nMeilleure gestion des erreurs",
+                "it": "Manigliare aree personalizzate & non disturbare per la serie Genie\nMigliore gestione degli errori",
+                "es": "Manija las áreas personalizadas & no molestar para la serie Genie\nMejor manejo de errores",
+                "pl": "Obsługa niestandardowych obszarów i nie przeszkadzać dla serii Genie\nLepsza obsługa błędów",
+                "uk": "Ручка користувальницьких зон і не турбувати на серії Genie\nКраще використання помилок",
+                "zh-cn": "处理自定义区域, 不打扰 Genie 系列\n更好的错误处理"
+            },
+            "0.0.10": {
+                "en": "Added do not disturb, vision, rain & volume commands\nSchedule improvements: do not start if in (or will not finish before) active do not disturb period\nHandle multiple devices\nHandle Genie series (custom map areas not supported yet)",
+                "de": "Hinzugefügt nicht stören, Vision, Regen & Volumen Befehle\nZeitplanverbesserungen: Starten Sie nicht, wenn Sie aktiv sind (oder vorher nicht fertig sind)\nHandhabung mehrerer Geräte\nHandle Genie-Serie (benutzerdefinierte Kartenbereiche werden noch nicht unterstützt)",
+                "ru": "Добавлено не беспокоить, видение, дождь и объем команды\nРасписание улучшений: не начинайте, если в (или не закончите раньше) активный не нарушает период\nУправление несколькими устройствами\nСерия Handle Genie (обычные карты пока не поддерживаются)",
+                "pt": "Adicionado não perturbar, visão, chuva & comandos de volume\nMelhorias de agendamento: não iniciar se estiver ativo (ou não terminar antes) não perturbar o período\nLidar com vários dispositivos\nLidar com a série Genie (áreas de mapas personalizados ainda não suportadas)",
+                "nl": "Toegevoegd niet storen, zicht, regen & volume commando's\nPlan verbeteringen: niet starten als in (of zal niet eindigen vóór) actief niet storen periode\nMeerdere apparaten hanteren\nHandle Genie serie (custom map gebieden nog niet ondersteund)",
+                "fr": "Ajouté ne dérangez pas, la vision, la pluie et le volume commandes\nAméliorations du calendrier : ne pas commencer si en (ou ne finira pas avant) actif ne dérange pas la période\nPoignez plusieurs appareils\nPoignez la série Génie (zones de carte personnalisées non encore prises en charge)",
+                "it": "Aggiunto non disturbare, visione, pioggia & volumi comandi\nMiglioramenti di programma: non iniziare se in (o non finirà prima) attivo non disturbare il periodo\nManeggiare più dispositivi\nManiglia serie Genie (zone mappa personalizzata non ancora supportate)",
+                "es": "Añadido no molestar, visión, lluvia > comandos de volumen\nMejoras programadas: no comience si en (o no terminará antes) activo no perturba el período\nManeja múltiples dispositivos\nHandle Genie series (las áreas de mapa de clientes aún no soportadas)",
+                "pl": "Dodano nie przeszkadzać, widzenie, deszcz i głośność komend\nUlepszenia harmonogramu: nie należy zaczynać, jeśli w (lub nie zakończy się wcześniej) aktywny nie zakłócać okresu\nObsługa wielu urządzeń\nObsługa serii Genie (nieobsługiwane jeszcze obszary map)",
+                "uk": "Додано не турбувати, бачення, дощ & об'єм команди\nПоліпшення розкладу: не запускати, якщо в (або не закінчиться до) активного не турбувати період\nРучка декількох пристроїв\nHandle Genie серії (карти не підтримуються ще)",
+                "zh-cn": "添加后不扰动、 视觉、 雨量和音量命令\n时间表改进: 如果在( 或不会在之前完成) 活动时不扰动周期, 请不要开始\n处理多个设备\n处理 Genie 系列( 尚未支持海关地图区域)"
+            },
+            "0.0.9": {
+                "en": "Fix mow_head_alts wrapping (#20)",
+                "de": "Fix mow head alts Verpackung (#20)",
+                "ru": "Fix mow head alts wrapping (#20)",
+                "pt": "Corrigir o empacotamento de cabeça  alts (# 20)",
+                "nl": "Mow head alts-inpakken repareren (#20)",
+                "fr": "Correction de l'emballage de mow head alts (#20)",
+                "it": "Risolvere la fascia mow head alts (#20)",
+                "es": "Fijar envolver mow head alts (#20)",
+                "pl": "Fix mow _ head _ alts pakowanie (# 20)",
+                "uk": "Виправлення mow head alts обгортання (#20)",
+                "zh-cn": "修补剪切除器  头部  结束( # 20)"
+            }
+        },
+        "titleLang": {
+            "en": "Anthbot",
+            "de": "Anthbot",
+            "ru": "Антбот",
+            "pt": "Antobô",
+            "nl": "Antbot",
+            "fr": "Anthbot",
+            "it": "Antbot",
+            "es": "Antbot",
+            "pl": "Anthbot",
+            "uk": "Anthbot",
+            "zh-cn": "蚂蚁机器人"
+        },
+        "desc": {
+            "en": "Connect with Anthbot devices such as their robot mowers",
+            "de": "Verbinden Sie sich mit Anthbot-Geräten wie den Mährobotern",
+            "ru": "Подключайтесь к устройствам Anthbot, например к их роботам-косилкам.",
+            "pt": "Conecte-se com dispositivos Anthbot, como seus robôs cortadores",
+            "nl": "Maak verbinding met Anthbot-apparaten zoals hun robotmaaiers",
+            "fr": "Connectez-vous aux appareils Anthbot tels que leurs robots tondeuses",
+            "it": "Connettiti con i dispositivi Anthbot come i robot rasaerba",
+            "es": "Conéctese con dispositivos Anthbot como sus robots cortacésped",
+            "pl": "Połącz się z urządzeniami Anthbot, takimi jak kosiarki automatyczne",
+            "uk": "Підключайтеся до пристроїв Anthbot, наприклад до їхніх роботів-косарок",
+            "zh-cn": "与 Anthbot 设备连接，例如机器人割草机"
+        },
+        "authors": [
+            "Robin Rainton <robin@rainton.com>",
+            "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
+        ],
+        "keywords": [
+            "robot",
+            "mower",
+            "IoT",
+            "Anthbot",
+            "lawn"
+        ],
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT"
+        },
+        "platform": "Javascript/Node.js",
+        "icon": "anthbot.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.anthbot/master/admin/anthbot.png",
+        "readme": "https://github.com/iobroker-community-adapters/ioBroker.anthbot/blob/master/README.md",
+        "loglevel": "info",
+        "tier": 3,
+        "mode": "daemon",
+        "type": "garden",
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=6.0.11"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=7.7.22"
+            }
+        ]
     },
-    "titleLang": {
-      "en": "Anthbot",
-      "de": "Anthbot",
-      "ru": "Антбот",
-      "pt": "Antobô",
-      "nl": "Antbot",
-      "fr": "Anthbot",
-      "it": "Antbot",
-      "es": "Antbot",
-      "pl": "Anthbot",
-      "uk": "Anthbot",
-      "zh-cn": "蚂蚁机器人"
+    "native": {
+        "username": "",
+        "password": "",
+        "regionCode": 61,
+        "pollingInterval": 60,
+        "cloudSyncDelay": 3000,
+        "scheduleDawnOffset": 180
     },
-    "desc": {
-      "en": "Connect with Anthbot devices such as their robot mowers",
-      "de": "Verbinden Sie sich mit Anthbot-Geräten wie den Mährobotern",
-      "ru": "Подключайтесь к устройствам Anthbot, например к их роботам-косилкам.",
-      "pt": "Conecte-se com dispositivos Anthbot, como seus robôs cortadores",
-      "nl": "Maak verbinding met Anthbot-apparaten zoals hun robotmaaiers",
-      "fr": "Connectez-vous aux appareils Anthbot tels que leurs robots tondeuses",
-      "it": "Connettiti con i dispositivi Anthbot come i robot rasaerba",
-      "es": "Conéctese con dispositivos Anthbot como sus robots cortacésped",
-      "pl": "Połącz się z urządzeniami Anthbot, takimi jak kosiarki automatyczne",
-      "uk": "Підключайтеся до пристроїв Anthbot, наприклад до їхніх роботів-косарок",
-      "zh-cn": "与 Anthbot 设备连接，例如机器人割草机"
-    },
-    "authors": [
-      "Robin Rainton <robin@rainton.com>",
-      "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
+    "encryptedNative": [
+        "password"
     ],
-    "keywords": [
-      "robot",
-      "mower",
-      "IoT",
-      "Anthbot",
-      "lawn"
+    "protectedNative": [
+        "username",
+        "password"
     ],
-    "licenseInformation": {
-      "type": "free",
-      "license": "MIT"
-    },
-    "platform": "Javascript/Node.js",
-    "icon": "anthbot.png",
-    "enabled": true,
-    "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.anthbot/master/admin/anthbot.png",
-    "readme": "https://github.com/iobroker-community-adapters/ioBroker.anthbot/blob/master/README.md",
-    "loglevel": "info",
-    "tier": 3,
-    "mode": "daemon",
-    "type": "garden",
-    "compact": true,
-    "connectionType": "cloud",
-    "dataSource": "poll",
-    "adminUI": {
-      "config": "json"
-    },
-    "dependencies": [
-      {
-        "js-controller": ">=6.0.11"
-      }
-    ],
-    "globalDependencies": [
-      {
-        "admin": ">=7.7.22"
-      }
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": "Device is online",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        }
     ]
-  },
-  "native": {
-    "username": "",
-    "password": "",
-    "regionCode": 61
-  },
-  "encryptedNative": [
-    "password"
-  ],
-  "protectedNative": [
-    "username",
-    "password"
-  ],
-  "objects": [],
-  "instanceObjects": [
-    {
-      "_id": "info.connection",
-      "type": "state",
-      "common": {
-        "role": "indicator.connected",
-        "name": "Device is online",
-        "type": "boolean",
-        "read": true,
-        "write": false,
-        "def": false
-      },
-      "native": {}
-    }
-  ]
 }

@@ -36,7 +36,13 @@
     "United Kingdom": "Великобритания",
     "United States / Canada": "США/Канада",
     "anthbot adapter settings": "Настройки адаптера для anthbot",
+    "cloudSyncDelay": "Задержка синхронизации с облаком",
+    "cloudSyncDelayHelp": "Задержка между отправкой команды и следующим опросом (миллисекунды)",
     "password": "Пароль",
+    "pollingInterval": "Интервал опроса в секундах",
+    "pollingIntervalHelp": "(секунды)",
     "region": "Область",
+    "scheduleDawnOffset": "Смещение графика рассвета",
+    "scheduleDawnOffsetHelp": "Время после рассвета для планирования кошения, отрицательное значение означает начало до рассвета (минуты)",
     "username": "Имя пользователя"
 }

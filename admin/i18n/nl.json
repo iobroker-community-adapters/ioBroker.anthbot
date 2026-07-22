@@ -36,7 +36,13 @@
     "United Kingdom": "Verenigd Koninkrijk",
     "United States / Canada": "Verenigde Staten / Canada",
     "anthbot adapter settings": "Adapterinstellingen voor anthbot",
+    "cloudSyncDelay": "Vertraging cloudsynchronisatie",
+    "cloudSyncDelayHelp": "Vertraging tussen het indienen van de opdracht en de volgende peiling (milliseconden)",
     "password": "Wachtwoord",
+    "pollingInterval": "Polling-interval in seconden",
+    "pollingIntervalHelp": "(seconden)",
     "region": "Regio",
+    "scheduleDawnOffset": "Verschuiving van het ochtendschema",
+    "scheduleDawnOffsetHelp": "Tijd na zonsopgang om het maaien te plannen, negatief betekent starten vóór zonsopgang (minuten)",
     "username": "Gebruikersnaam"
 }

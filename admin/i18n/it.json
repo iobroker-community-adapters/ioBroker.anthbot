@@ -36,7 +36,13 @@
     "United Kingdom": "Regno Unito",
     "United States / Canada": "Stati Uniti/Canada",
     "anthbot adapter settings": "Impostazioni dell'adattatore per anthbot",
+    "cloudSyncDelay": "Ritardo della sincronizzazione nel cloud",
+    "cloudSyncDelayHelp": "Ritardo tra l'invio del comando e il sondaggio successivo (millisecondi)",
     "password": "Password",
+    "pollingInterval": "Intervallo di polling in secondi",
+    "pollingIntervalHelp": "(secondi)",
     "region": "Regione",
+    "scheduleDawnOffset": "Offset del programma dell'alba",
+    "scheduleDawnOffsetHelp": "Tempo dopo l'alba per programmare il taglio, negativo significa iniziare prima dell'alba (minuti)",
     "username": "Nome utente"
 }

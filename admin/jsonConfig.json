@@ -69,6 +69,45 @@
             "md": 12,
             "lg": 9,
             "xl": 6
+        },
+        "pollingInterval": {
+            "type": "number",
+            "label": "pollingInterval",
+            "help": "pollingIntervalHelp",
+            "newLine": true,
+            "min": 60,
+            "max": 3600,
+            "xs": 12,
+            "sm": 12,
+            "md": 12,
+            "lg": 9,
+            "xl": 6
+        },
+        "cloudSyncDelay": {
+            "type": "number",
+            "label": "cloudSyncDelay",
+            "help": "cloudSyncDelayHelp",
+            "newLine": true,
+            "min": 250,
+            "max": 3000,
+            "xs": 12,
+            "sm": 12,
+            "md": 12,
+            "lg": 9,
+            "xl": 6
+        },
+        "scheduleDawnOffset": {
+            "type": "number",
+            "label": "scheduleDawnOffset",
+            "help": "scheduleDawnOffsetHelp",
+            "newLine": true,
+            "min": -300,
+            "max": 600,
+            "xs": 12,
+            "sm": 12,
+            "md": 12,
+            "lg": 9,
+            "xl": 6
         }
     }
 }

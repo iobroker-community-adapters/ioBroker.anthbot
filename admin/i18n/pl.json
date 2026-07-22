@@ -36,7 +36,13 @@
     "United Kingdom": "Zjednoczone Królestwo",
     "United States / Canada": "Stany Zjednoczone / Kanada",
     "anthbot adapter settings": "Ustawienia adaptera dla anthbot",
+    "cloudSyncDelay": "Opóźnienie synchronizacji w chmurze",
+    "cloudSyncDelayHelp": "Opóźnienie między przesłaniem polecenia a następną ankietą (milisekundy)",
     "password": "Hasło",
+    "pollingInterval": "Interwał odpytywania w sekundach",
+    "pollingIntervalHelp": "(towary drugiej jakości)",
     "region": "Region",
+    "scheduleDawnOffset": "Przesunięcie harmonogramu świtu",
+    "scheduleDawnOffsetHelp": "Czas po świcie na zaplanowanie koszenia, wartość ujemna oznacza rozpoczęcie przed świtem (minuty)",
     "username": "Nazwa użytkownika"
 }

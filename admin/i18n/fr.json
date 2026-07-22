@@ -36,7 +36,13 @@
     "United Kingdom": "Royaume-Uni",
     "United States / Canada": "États-Unis / Canada",
     "anthbot adapter settings": "Paramètres d'adaptateur pour anthbot",
+    "cloudSyncDelay": "Délai de synchronisation dans le cloud",
+    "cloudSyncDelayHelp": "Délai entre la soumission de la commande et le prochain sondage (millisecondes)",
     "password": "Mot de passe",
+    "pollingInterval": "Intervalle d'interrogation en secondes",
+    "pollingIntervalHelp": "(secondes)",
     "region": "Région",
+    "scheduleDawnOffset": "Décalage horaire de l'aube",
+    "scheduleDawnOffsetHelp": "Temps après l'aube pour programmer la tonte, négatif signifie commencer avant l'aube (minutes)",
     "username": "Nom d'utilisateur"
 }

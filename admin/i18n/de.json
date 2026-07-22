@@ -36,7 +36,13 @@
     "United Kingdom": "Vereinigtes Königreich",
     "United States / Canada": "Vereinigte Staaten / Kanada",
     "anthbot adapter settings": "Adaptereinstellungen für anthbot",
+    "cloudSyncDelay": "Verzögerung der Cloud-Synchronisierung",
+    "cloudSyncDelayHelp": "Verzögerung zwischen dem Absenden des Befehls und der nächsten Umfrage (Millisekunden)",
     "password": "Passwort",
+    "pollingInterval": "Abfrageintervall in Sekunden",
+    "pollingIntervalHelp": "(Sekunden)",
     "region": "Region",
+    "scheduleDawnOffset": "Versatz des Morgendämmerungsplans",
+    "scheduleDawnOffsetHelp": "Zeit nach der Morgendämmerung, um das Mähen zu planen, negativ bedeutet, dass vor der Morgendämmerung begonnen wird (Minuten)",
     "username": "Benutzername"
 }

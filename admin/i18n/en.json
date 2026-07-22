@@ -38,5 +38,11 @@
     "Turkey": "Turkey",
     "Ukraine": "Ukraine",
     "United Arab Emirates": "United Arab Emirates",
-    "United Kingdom": "United Kingdom"
+    "United Kingdom": "United Kingdom",
+    "pollingInterval": "Polling interval",
+    "pollingIntervalHelp": "If you see TOO_MANY_REQUESTS error while polling try increasing this (seconds)",
+    "cloudSyncDelay": "Cloud sync delay",
+    "cloudSyncDelayHelp": "Delay between submitting command & next poll (milliseconds)",
+    "scheduleDawnOffset": "Dawn schedule offset",
+    "scheduleDawnOffsetHelp": "Time after dawn to schedule mowing, negative means start before dawn (minutes)"
 }
