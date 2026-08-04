@@ -111,6 +111,7 @@ Note that when using `area_set` it is not necessary to define all parameters and
 
 - (raintonr) Few general code clean-ups
 - (raintonr) Some constants are now configurable
+- (raintonr) Schedule 'impossible to mow in a day' custom areas when several days overdue
 
 ### 0.1.2 (2026-07-16)
 
