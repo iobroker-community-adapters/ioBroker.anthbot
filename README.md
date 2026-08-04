@@ -106,8 +106,7 @@ Note that when using `area_set` it is not necessary to define all parameters and
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-
-### **WORK IN PROGRESS**
+### 0.2.0 (2026-08-04)
 
 - (raintonr) Few general code clean-ups
 - (raintonr) Some constants are now configurable
@@ -134,11 +133,6 @@ Note that when using `area_set` it is not necessary to define all parameters and
 - (raintonr) Added mow_head & cutter_height custom area (zone) shortcuts
 - (raintonr) Fix bug creating multiple polling timers
 - (raintonr) Handle missing task finished code when custom area mowing (#35)
-
-### 0.0.11 (2026-06-12)
-
-- (raintonr) Handle custom areas & do not disturb for Genie series
-- (raintonr) Better error handling
 
 [Older changelogs can be found there](CHANGELOG_OLD.md)
 

@@ -1,4 +1,9 @@
 # Older changes
+## 0.0.11 (2026-06-12)
+
+- (raintonr) Handle custom areas & do not disturb for Genie series
+- (raintonr) Better error handling
+
 ## 0.0.10 (2026-06-10)
 
 - (raintonr) Added do not disturb, vision, rain & volume commands
